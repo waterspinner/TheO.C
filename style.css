@@ -14,7 +14,6 @@ body {
 label {
     font-family: sans-serif;
     font-size: 1rem;
-    padding-right: 10px;
 }
 
 select {
@@ -54,4 +53,22 @@ select {
 
 .channel-submit:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.line-holder {
+    justify-content: start;
+    width: 269px;
+    height: 20px;
+    border: #000;
+}
+
+.line {
+    width: 68%;
+    height: 20%;
+    background-color: #000;
+
+}
+
+h1 {
+    margin: 0px;
 }
