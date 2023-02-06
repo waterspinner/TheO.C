@@ -21,3 +21,20 @@ window.addEventListener('load', () => {
       
 
 });
+
+const channelBtn = document.querySelector('.channel-submit');
+console.log(channelBtn);
+let selectedOption; 
+
+const selectMenu = document.getElementById('channel-select');
+selectMenu.addEventListener("change", function() {
+    selectedOption = selectMenu.options[selectMenu.selectedIndex];
+  });
+
+
+channelBtn.addEventListener('click', function() {
+ fetch('https://rly.osl.zone/clear?chain='+selectedOption.textContent)
+ .then((response) => {
+    console.log(response);
+ })
+})

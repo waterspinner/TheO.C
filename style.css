@@ -34,7 +34,7 @@ select {
     margin: 10px;
 }
 
-.channel-select {
+.channel-submit {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -48,10 +48,10 @@ select {
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
-.channel-select:hover {
+.channel-submit:hover {
     background-color: rgb(101, 0, 160);
 }
 
-.channel-select:active {
+.channel-submit:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
