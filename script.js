@@ -1,6 +1,6 @@
 //fetch chain options
 window.addEventListener('load', () => {
-    fetch('https://oc.coldyvalidator.net/health')
+    fetch('https://rly.osl.zone/health')
       .then((response) => {
         console.log(response);
         return response.json();
@@ -39,7 +39,7 @@ channelBtn.addEventListener('click', function() {
   channelBtn.disabled = true;
   const fetching = document.querySelector('.fetching')
   fetching.innerHTML = 'Fetching...'
- fetch('https://oc.coldyvalidator.net/clear?chain='+selectedOption.textContent)
+ fetch('https://rly.osl.zone/clear?chain='+selectedOption.textContent)
  .then((response) => {
     console.log(response);
     return response.json();
